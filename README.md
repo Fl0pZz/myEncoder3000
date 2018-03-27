@@ -13,6 +13,7 @@
 ## Сборка и запуск
 ```bash
 git clone https://github.com/Fl0pZz/myEncoder3000.git
+mvn package
 cd myEncoder3000
 java -cp target/Test-1.0-SNAPSHOT.jar Main -e -t hello -a huffman
 ```
